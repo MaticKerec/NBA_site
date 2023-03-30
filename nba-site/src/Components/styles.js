@@ -1,0 +1,121 @@
+import teamLogos from "./teamLogos.js";
+
+const styles = {
+    h1: {
+        position: 'absolute',
+        width: '100%',
+        height: '100%',
+        top: '0',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        color: 'white',
+        fontFamily: 'Poppins, sans-serif',
+        textShadow: '2px 2px 4px rgba(0,0,0,0.5)'
+
+    },
+    h3: {
+        position: 'absolute',
+        width: '100%',
+        height: '100%',
+        top: '0',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        color: 'white',
+        paddingTop: '150px',
+        fontFamily: 'Poppins, sans-serif',
+        textShadow: '2px 2px 4px rgba(0,0,0,0.5)'
+
+    },
+    centerObject : {
+        display : 'flex',
+        justifyContent: 'center',
+        alignItems : 'center',
+    },
+    conference: {
+        height: '100%',
+        justifyContent: 'center',
+        alignItems: 'center',
+        color: 'white',
+        fontFamily: 'Montserrat, sans-serif',
+        textShadow: '2px 2px 4px rgba(0,0,0,0.5)'
+    },
+    box: {
+        borderRadius: '8px',
+        padding: '1%',
+        marginBottom: '2%',
+        border: '2px solid white',
+        borderColor: 'white',
+        borderWidth: '3px',
+    },
+    region: {
+        width: '100%',
+        height: '100%',
+        top: '0%',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        color: '#1c1c1c',
+        padding: '5%',
+        fontFamily: 'Poppins, sans-serif',
+        textShadow: '1px 1px 2px rgba(0,0,0,0.5)',
+    },
+    buttons: {
+        color: 'white',
+        fontSize: '18px',
+        fontWeight: '500',
+        fontFamily: 'Poppins',
+        borderColor: 'white',
+        borderWidth: '3px',
+    },
+    teams: {
+        color: 'white',
+        fontSize: '30px',
+        fontWeight: '500',
+        fontFamily: 'Poppins',
+        borderColor: 'white',
+        borderWidth: '3px',
+        float: 'left',
+        textDecoration: 'underline',
+        textDecorationThickness : '1px',
+        textUnderlineOffset : '12px',
+        padding:"5%",
+    },
+    switchConference : {
+        display: 'inline-block',
+        position: 'flex',
+        color: 'white',
+        borderColor: 'white',
+        borderWidth: '3px',
+        fontFamily: 'Poppins, sans-serif',
+        textShadow: '2px 2px 4px rgba(0,0,0,0.5)',
+        top: '0%',
+        marginTop: '5%',
+    },
+    standings: {
+        color: 'white',
+        fontSize: '50px',
+        fontWeight: '500',
+        fontFamily: 'Poppins',
+        borderColor: 'white',
+        borderWidth: '3px',
+        float: 'left',
+        display: 'inline-block',
+    },
+    logo: {
+        opacity: '1',
+        display: 'block',
+        width: '5%',
+        height: 'auto',
+        transition: '.5s ease',
+        backfaceVisibility: 'hidden',
+        marginLeft: '1%',
+        marginRight: '1%',
+    },
+    row : {
+        margin: '8px',
+    },
+
+};
+export default styles;

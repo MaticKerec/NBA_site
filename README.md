@@ -14,3 +14,6 @@ The app is built with React and Material UI for the frontend, and uses the NBA A
 This project is an ongoing effort and we welcome contributions from the community. Please see the CONTRIBUTING.md file for more information on how to contribute.
 
 Thank you for checking out our NBA Site!
+
+Here are screenshots of the currents site: 
+<img src="nba-site/src/Img/Home_screenshot.png">
