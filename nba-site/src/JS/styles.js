@@ -1,6 +1,28 @@
 import teamLogos from "./teamLogos.js";
 
 const styles = {
+    toolbar: {
+        display: "flex",
+        justifyContent: "space-between",
+        backgroundColor: '#1c1c1c',
+    },
+    nba: {
+        color: 'white',
+        fontSize: '30px',
+        fontFamily: 'Poppins',
+        textDecoration: 'none',
+        marginRight: "auto",
+    },
+    footer: {
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '150px',
+        backgroundColor: '#1c1c1c',
+        color: 'white',
+        position: 'sticky',
+        paddingLeft: '10%',
+    },
     h1: {
         position: 'absolute',
         width: '100%',
@@ -13,6 +35,10 @@ const styles = {
         fontFamily: 'Poppins, sans-serif',
         textShadow: '2px 2px 4px rgba(0,0,0,0.5)'
 
+    },
+    container: {
+        justifyContent: 'center',
+        alignItems: 'center',
     },
     h3: {
         position: 'absolute',
@@ -41,13 +67,13 @@ const styles = {
         fontFamily: 'Montserrat, sans-serif',
         textShadow: '2px 2px 4px rgba(0,0,0,0.5)'
     },
-    box: {
-        borderRadius: '8px',
-        padding: '1%',
-        marginBottom: '2%',
-        border: '2px solid white',
-        borderColor: 'white',
-        borderWidth: '3px',
+    boxHeader: {
+        display: "flex",
+        gap: "1rem",
+        color: 'white',
+        fontWeight: '500',
+        fontFamily: 'Poppins',
+        marginRight: '5%',
     },
     region: {
         width: '100%',
@@ -61,13 +87,37 @@ const styles = {
         fontFamily: 'Poppins, sans-serif',
         textShadow: '1px 1px 2px rgba(0,0,0,0.5)',
     },
-    buttons: {
+    headerText: {
+        textTransform: "none",
+        color: 'white',
+        fontSize: '25px',
+        fontWeight: 'bold',
+        fontFamily: 'Poppins',
+        textDecoration: 'none',
+    },
+    eachButton: {
+        textTransform: "none",
+        marginRight: '10%',
+        color: 'white',
+        fontSize: '25px',
+        fontWeight: '500',
+        fontFamily: 'Poppins',
+        textDecoration: 'none',
+    },
+    footerText: {
+        textTransform: "none",
         color: 'white',
         fontSize: '18px',
         fontWeight: '500',
         fontFamily: 'Poppins',
-        borderColor: 'white',
-        borderWidth: '3px',
+        textDecoration: 'none',
+    },
+    headerButton: {
+        marginRight: '20%',
+        fontSize: '18px',
+        fontWeight: '500',
+        fontFamily: 'Poppins',
+        textDecoration: 'none',
     },
     teams: {
         color: 'white',
@@ -106,16 +156,20 @@ const styles = {
     logo: {
         opacity: '1',
         display: 'block',
-        width: '5%',
+        width: '3%',
         height: 'auto',
         transition: '.5s ease',
         backfaceVisibility: 'hidden',
         marginLeft: '1%',
-        marginRight: '1%',
     },
     row : {
         margin: '8px',
     },
-
+    root: {
+        maxWidth: 345,
+    },
+    media: {
+        height: 200,
+    },
 };
 export default styles;
