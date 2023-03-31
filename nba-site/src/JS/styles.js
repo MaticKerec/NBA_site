@@ -37,7 +37,7 @@ const styles = {
         alignItems: 'center',
         color: 'white',
         fontFamily: 'Poppins, sans-serif',
-        textShadow: '2px 2px 4px rgba(0,0,0,0.5)'
+        textShadow: '4px 4px 4px rgba(0,0,0,1)'
 
     },
     h3: {
