@@ -5,9 +5,9 @@ import { Card, CardMedia, CardContent, Typography } from "@mui/material";
 import styles from "./styles.js";
 const Toronto = () => {
     return (
-        <Card>
-            <CardMedia image={TOR}></CardMedia>
-        </Card>
+        <div>
+            {TOR}
+        </div>
     )
 };
 export default Toronto;

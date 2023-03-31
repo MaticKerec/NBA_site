@@ -1,7 +1,10 @@
 import teamLogos from "./teamLogos.js";
+import backgroundCardImage from "../assets/Img/background.jpg";
+import backgroundImage from "../assets/Img/357642-Sports-Michael-Jordan-Phone-Wallpaper.jpg"
 
 const styles = {
     toolbar: {
+        height: '100px',
         display: "flex",
         justifyContent: "space-between",
         backgroundColor: '#1c1c1c',
@@ -17,6 +20,7 @@ const styles = {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        marginTop: '-10px',
         height: '150px',
         backgroundColor: '#1c1c1c',
         color: 'white',
@@ -36,10 +40,6 @@ const styles = {
         textShadow: '2px 2px 4px rgba(0,0,0,0.5)'
 
     },
-    container: {
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
     h3: {
         position: 'absolute',
         width: '100%',
@@ -52,12 +52,52 @@ const styles = {
         paddingTop: '150px',
         fontFamily: 'Poppins, sans-serif',
         textShadow: '2px 2px 4px rgba(0,0,0,0.5)'
+    },
+    overlay: {
+        backgroundColor: 'rgba(23,23,23)',
+        opacity: '1',
+    },
+    cardText: {
+        color: 'rgba(255,255,255)',
+        fontFamily: 'Poppins, sans-serif',
+        fontWeight: '600',
+        textShadow: '2px 2px 4px rgba(0,0,0,.8)'
+    },
+    cardContent: {
+        margin: '0',
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: 'rgba(255,255,255,.5)',
+    },
+    cardObject: {
+        margin: '15px auto 20px auto',
+        height: '270px',
+        width: '80%',
+        backgroundImage: `url(${backgroundCardImage})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        color: 'white',
+        fontSize: '25px',
+        fontWeight: 'bold',
+        borderRadius: '15%',
 
     },
-    centerObject : {
-        display : 'flex',
+    logoStyle: {
+        paddingTop: '10px',
+        paddingBottom: '10px',
+        display: 'flex',
         justifyContent: 'center',
-        alignItems : 'center',
+        height: '200px',
+        backgroundColor: 'rgba(255,255,255,.9)',
+
+    },
+    cardStyle: {
+        height: '100%',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        fontSize: '20px',
     },
     conference: {
         height: '100%',
@@ -71,8 +111,6 @@ const styles = {
         display: "flex",
         gap: "1rem",
         color: 'white',
-        fontWeight: '500',
-        fontFamily: 'Poppins',
         marginRight: '5%',
     },
     region: {
@@ -98,6 +136,7 @@ const styles = {
     eachButton: {
         textTransform: "none",
         marginRight: '10%',
+        width: '100%',
         color: 'white',
         fontSize: '25px',
         fontWeight: '500',

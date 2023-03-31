@@ -1,9 +1,11 @@
 import React from "react";
-import TeamCard from "./TeamCards";
+import TeamCards from "./TeamCards";
 export default function Teams() {
 
 
     return (
-        <TeamCard />
+        <div className="overlay">
+            <TeamCards />
+        </div>
     );
 }

@@ -6,23 +6,35 @@ import styles from "../JS/styles.js";
 function LogoComponent({ sx }) {
     return (
         <Box sx={sx}>
-            <img src={Logo} alt="Logo" style={{ height: '50px'}} />
+            <img src={Logo} alt="Logo" style={{ height: '80px'}} />
         </Box>
     );
 }
 export default function Header() {
     return (
-        <Toolbar sx={{  ...styles.toolbar}}>
+        <Toolbar sx={{...styles.toolbar}}>
             <LogoComponent sx={styles.logo}/>
             <Button sx={styles.nba}>
-                <Link href="/" underline="hover" style={{...styles.headerText}}>Teams
+                <Link href="/" underline="hover" style={styles.headerText}>Teams
                     NBA DATABASE
                 </Link>
             </Button>
             <Box sx={styles.boxHeader}>
-                <Button sx={styles.eachButton}>Home</Button>
-                <Button sx={styles.eachButton}>Teams</Button>
-                <Button sx={styles.eachButton}>Players</Button>
+                <Button sx={styles.eachButton}>
+                    <Link href="/" underline="hover" style={styles.headerText}>
+                        HOME
+                    </Link>
+                </Button>
+                <Button sx={styles.eachButton}>
+                    <Link href="/teams" underline="hover" style={styles.headerText}>
+                        TEAMS
+                    </Link>
+                </Button>
+                <Button sx={styles.eachButton}>
+                    <Link href="/players" underline="hover" style={styles.headerText}>
+                        PLAYERS
+                    </Link>
+                </Button>
             </Box>
         </Toolbar>
     );

@@ -7,6 +7,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom"
 import Home from "./Components/Home"
 import Layout from "./Components/Layout.jsx";
 import Teams from "./Components/Teams.jsx";
+import Players from "./Components/Players.jsx";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/teams" element={<Teams />} />
+                        <Route path="/players" element={<Players />} />
                     </Routes>
                 </Layout>
             </BrowserRouter>
