@@ -1,6 +1,6 @@
 import teamLogos from "./teamLogos.js";
 import backgroundCardImage from "../assets/Img/background.jpg";
-import backgroundImage from "../assets/Img/357642-Sports-Michael-Jordan-Phone-Wallpaper.jpg"
+import backgroundImage from "../assets/Img/2122-mobile-wallpaper-01.jpg"
 
 const styles = {
     toolbar: {
@@ -55,6 +55,10 @@ const styles = {
     },
     overlay: {
         backgroundColor: 'rgba(23,23,23)',
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
         opacity: '1',
     },
     cardText: {
