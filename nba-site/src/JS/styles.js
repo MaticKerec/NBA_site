@@ -11,10 +11,14 @@ const styles = {
     },
     nba: {
         color: 'white',
-        fontSize: '30px',
+        fontSize: '50px',
+        fontWeight: '600',
         fontFamily: 'Poppins',
         textDecoration: 'none',
         marginRight: "auto",
+        '&:hover': {
+            backgroundColor: '#1c1c1c',
+        },
     },
     footer: {
         display: 'flex',
@@ -38,6 +42,7 @@ const styles = {
         color: 'white',
         fontFamily: 'Poppins, sans-serif',
         textShadow: '4px 4px 4px rgba(0,0,0,1)'
+
 
     },
     h3: {
@@ -65,13 +70,13 @@ const styles = {
         color: 'rgba(255,255,255)',
         fontFamily: 'Poppins, sans-serif',
         fontWeight: '600',
-        textShadow: '2px 2px 4px rgba(0,0,0,.8)'
+        textShadow: '5px 2px 6px rgba(0,0,0,.8)'
     },
     cardContent: {
         margin: '0',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: 'rgba(255,255,255,.5)',
+        backgroundColor: 'rgba(255,255,255,.3)',
     },
     cardObject: {
         margin: '15px auto 20px auto',

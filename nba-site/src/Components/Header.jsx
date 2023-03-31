@@ -14,11 +14,9 @@ export default function Header() {
     return (
         <Toolbar sx={{...styles.toolbar}}>
             <LogoComponent sx={styles.logo}/>
-            <Button sx={styles.nba}>
-                <Link href="/" underline="hover" style={styles.headerText}>Teams
-                    NBA DATABASE
-                </Link>
-            </Button>
+            <Link href="/" sx={styles.nba}>
+                NBA DATABASE
+            </Link>
             <Box sx={styles.boxHeader}>
                 <Button sx={styles.eachButton}>
                     <Link href="/" underline="hover" style={styles.headerText}>
