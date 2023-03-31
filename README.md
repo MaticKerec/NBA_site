@@ -16,4 +16,5 @@ This project is an ongoing effort and we welcome contributions from the communit
 Thank you for checking out our NBA Site!
 
 Here are screenshots of the currents site: 
-<img src="nba-site/src/Img/Home_screenshot.png">
+![Home Page Screenshot] (NBA_site/nba-site/src/Img/Home_screenshot.png)
+![Teams Page Screenshot](NBA_site/nba-site/src/Img/Teams_screenshot.png)
