@@ -1,4 +1,3 @@
-import teamLogos from "./teamLogos.js";
 import backgroundCardImage from "../assets/Img/background.jpg";
 import backgroundImage from "../assets/Img/2122-mobile-wallpaper-01.jpg"
 
@@ -16,9 +15,6 @@ const styles = {
         fontFamily: 'Poppins',
         textDecoration: 'none',
         marginRight: "auto",
-        '&:hover': {
-            backgroundColor: '#1c1c1c',
-        },
     },
     footer: {
         display: 'flex',
@@ -144,7 +140,7 @@ const styles = {
     },
     eachButton: {
         textTransform: "none",
-        marginRight: '10%',
+        margin: 'auto',
         width: '100%',
         color: 'white',
         fontSize: '25px',
@@ -204,6 +200,7 @@ const styles = {
     logo: {
         opacity: '1',
         display: 'block',
+        marginRight: '5px',
         width: '3%',
         height: 'auto',
         transition: '.5s ease',

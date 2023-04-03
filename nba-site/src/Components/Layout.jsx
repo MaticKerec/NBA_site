@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
     return (
         <>
             <Header />
-            <Box sx={{ minHeight: 'calc(100vh - 150px)' }}>
+            <Box>
                 <main>
                     {children}
                 </main>

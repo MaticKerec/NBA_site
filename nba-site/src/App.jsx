@@ -8,7 +8,7 @@ import Home from "./Components/Home"
 import Layout from "./Components/Layout.jsx";
 import Teams from "./Components/Teams.jsx";
 import Players from "./Components/Players.jsx";
-
+import Standings from "./Components/Standings.jsx";
 function App() {
     return (
         <div className="container">
@@ -17,7 +17,7 @@ function App() {
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/teams" element={<Teams />} />
-                        <Route path="/players" element={<Players />} />
+                        <Route path="/standings" element={<Standings />} />
                     </Routes>
                 </Layout>
             </BrowserRouter>

@@ -29,8 +29,8 @@ export default function Header() {
                     </Link>
                 </Button>
                 <Button sx={styles.eachButton}>
-                    <Link href="/players" underline="hover" style={styles.headerText}>
-                        PLAYERS
+                    <Link href="/standings" underline="hover" style={styles.headerText}>
+                        STANDINGS
                     </Link>
                 </Button>
             </Box>

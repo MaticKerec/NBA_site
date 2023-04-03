@@ -3,7 +3,7 @@ import { Box, Typography, Link, Grid } from '@mui/material';
 import styles from "../JS/styles.js"
 const Footer = () => {
     return (
-        <Grid container style={styles.footer}>
+        <Grid container sx={styles.footer}>
             <Grid item xs={12} md={4}>
                 <Grid container direction="column" spacing={1} >
                     <Grid item>
@@ -22,7 +22,7 @@ const Footer = () => {
                     <Link href="/teams" underline="hover" style={styles.footerText}>Teams</Link>
                 </Grid>
                 <Grid item>
-                    <Link href="/teams" underline="hover" style={styles.footerText}>Teams</Link>
+                    <Link href="/teams" underline="hover" style={styles.footerText}>Standings</Link>
                 </Grid>
                 <Grid item>
                     <Link href="/teams" underline="hover" style={styles.footerText}>Teams</Link>
