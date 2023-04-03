@@ -8,7 +8,16 @@ const styles = {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         padding: '1%',
-
+    },
+    conferenceBox: {
+        backgroundColor: '#1c1c1c',
+        padding: '3%',
+        marginBottom: '2%',
+    },
+    conferenceText: {
+        color: '#fff',
+        fontWeight: 'bold',
+        textAlign: 'center',
     },
     box: {
         display: "flex",

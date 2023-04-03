@@ -382,10 +382,16 @@ const WesternStandings = () => {
 };
 const StandingsTable = ({ conferenceName, standingsData }) => {
     return (
-        <Box mt={3}>
+        <Box mt={5}>
+            <Box sx={styles.conferenceBox}>
+                <Typography variant="h2" sx={styles.conferenceText}>
+                    {conferenceName} CONFERENCE
+                </Typography>
+            </Box>
+
             <Grid container spacing={2} sx={styles.grid}>
                 {standingsData.map((team) => (
-                    <Grid key={team.teamId} item sx={{width: '100%'}}>
+                    <Grid key={team.teamId} item sx={{width: '100%',paddingBottom: '1%'}}>
                         <Card sx={styles.card}>
                             <CardContent style={{padding: '0%'}}>
                                 <Box sx={{...styles.box, backgroundColor: team.primaryColor}}>
