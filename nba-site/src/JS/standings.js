@@ -1,5 +1,4 @@
 import backgroundImage from "../assets/Img/zachLavine_background.jpg";
-import lighttBackground from "../assets/Img/light_background.jpg";
 
 const styles = {
     overlay: {
