@@ -1,4 +1,4 @@
-import {Card, CardMedia, CardContent, Typography, Grid, Box} from '@mui/material';
+import {Card, CardContent, Typography, Grid, Box} from '@mui/material';
 import { TOR, MIL, BOS, MIA, PHI, IND, BKN, ORL, CHA, CHI, DET, WAS, CLE, NYK, ATL, DEN, MEM, SAC, PHX, LAC, GSW, DAL, MIN, OKC, UTA, LAL, NOP, POR, SAS, HOU } from 'react-nba-logos';
 import styles from "../JS/standings.js";
 import React from "react";
@@ -382,7 +382,7 @@ const WesternStandings = () => {
 };
 const StandingsTable = ({ conferenceName, standingsData }) => {
     return (
-        <Box mt={3} sx={styles.outerBox}>
+        <Box mt={3}>
             <Box sx={styles.conferenceBox}>
                 <Typography variant="h2" sx={styles.conferenceText}>
                     {conferenceName} CONFERENCE
@@ -390,7 +390,7 @@ const StandingsTable = ({ conferenceName, standingsData }) => {
             </Box>
                 {standingsData.map((team) => (
                     <Grid key={team.teamId} item sx={{paddingBottom: '1%'}}>
-                        <Card sx={styles.card}>
+                        <Card>
                             <CardContent style={{padding: '0%'}}>
                                 <Box sx={{...styles.box, backgroundColor: team.primaryColor}}>
                                     <Box sx={{...styles.index, backgroundColor:'rgba(28,28,28,1)'}}>

@@ -1,8 +1,8 @@
 import React from "react";
-import { Box, Typography, Link, Grid } from '@mui/material';
+import { Typography, Link, Grid } from '@mui/material';
 import styles from "../JS/styles.js"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (

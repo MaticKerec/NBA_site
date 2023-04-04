@@ -8,18 +8,19 @@ const styles = {
         backgroundPosition: 'center',
         padding: '1%',
     },
+    standings: {
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'column'},
     conferenceBox: {
-        padding: '2%',
-    },
-    outerBox: {
-        backgroundColor: 'rgba(35, 78,182, .7)',
-        paddingLeft: '1%',
-        paddingRight: '1%',
-        paddingBottom: '5px',
-        marginBottom: '2%',
+        backgroundColor: '#1c1c1c',
+        padding: '1%',
+        marginBottom: '1%',
     },
     conferenceText: {
         color: '#fff',
+
         fontWeight: 'bold',
         textAlign: 'center',
     },
@@ -93,7 +94,9 @@ const styles = {
         fontSize: '35px',
         fontWeight: '500',
         fontFamily: 'Poppins',
+        fontweight: 'bold',
         textDecoration: 'none',
+        backgroundColor: 'rgba(152, 0,46, 1)',
     },
 };
 

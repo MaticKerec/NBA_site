@@ -9,7 +9,7 @@ Features:
 - Sort teams or players by various categories, such as conference or position
 - Learn more about the NBA and its history through informative articles and resources
 
-The app is built with React and Material UI for the frontend, and uses the NBA API to fetch data. The app is deployed on GitHub Pages and can be accessed at [https://your-username.github.io/nba-site](https://your-username.github.io/nba-site).
+The app is built with React and Material UI for the frontend, and uses the NBA API to fetch data. The app is deployed on GitHub Pages and can be accessed at [https://github.com/MaticKerec/NBA_site)(https://github.com/MaticKerec/NBA_site).
 
 This project is an ongoing effort and we welcome contributions from the community. Please see the CONTRIBUTING.md file for more information on how to contribute.
 
