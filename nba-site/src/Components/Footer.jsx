@@ -1,6 +1,9 @@
 import React from "react";
 import { Box, Typography, Link, Grid } from '@mui/material';
 import styles from "../JS/styles.js"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 const Footer = () => {
     return (
         <Grid container sx={styles.footer}>
@@ -29,9 +32,23 @@ const Footer = () => {
                 </Grid>
             </Grid>
             <Grid item xs={12} md={4}>
-                <Typography variant="body1" color="inherit" sx={{ margin: 0 }}>
-                    Column 3 content here
-                </Typography>
+                <Grid item>
+                    <Typography variant="body1" color="inherit" style={styles.footerText}>
+                        Social media:
+
+                    </Typography>
+                </Grid>
+                <Grid item>
+                    <a href="https://www.facebook.com/nba/" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faFacebook} style={styles.footerIcons} />
+                    </a>
+                    <a href="https://www.twitter.com/nba/" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faTwitter} style={styles.footerIcons}/>
+                    </a>
+                    <a href="https://www.instagram.com/nba/" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faInstagram} style={styles.footerIcons}/>
+                    </a>
+                </Grid>
             </Grid>
         </Grid>
     );

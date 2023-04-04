@@ -29,7 +29,7 @@ const styles = {
         overflow: "hidden"
     },
     index: {
-        width: "80px",
+        width: "95px",
         height: "120px",
         display: "flex",
         alignItems: "center",

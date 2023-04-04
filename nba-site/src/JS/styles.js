@@ -38,8 +38,6 @@ const styles = {
         color: 'white',
         fontFamily: 'Poppins, sans-serif',
         textShadow: '4px 4px 4px rgba(0,0,0,1)'
-
-
     },
     h3: {
         position: 'absolute',
@@ -52,7 +50,7 @@ const styles = {
         color: 'white',
         paddingTop: '150px',
         fontFamily: 'Poppins, sans-serif',
-        textShadow: '2px 2px 4px rgba(0,0,0,0.5)'
+        textShadow: '4px 4px 4px rgba(0,0,0,1)'
     },
     overlay: {
         backgroundColor: 'rgba(23,23,23)',
@@ -156,6 +154,11 @@ const styles = {
         fontFamily: 'Poppins',
         textDecoration: 'none',
     },
+    footerIcons: {
+        marginTop: '5px',
+        marginRight: '15px',
+        height: '35px',
+    },
     headerButton: {
         marginRight: '20%',
         fontSize: '18px',
@@ -206,15 +209,6 @@ const styles = {
         transition: '.5s ease',
         backfaceVisibility: 'hidden',
         marginLeft: '1%',
-    },
-    row : {
-        margin: '8px',
-    },
-    root: {
-        maxWidth: 345,
-    },
-    media: {
-        height: 200,
     },
 };
 export default styles;
