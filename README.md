@@ -1,4 +1,4 @@
-# NBA Site
+# NBA Site Project
 
 This is a web application that provides NBA fans with information on all teams and players currently in the league. The app provides a user-friendly interface that is easy to navigate.
 
