@@ -13,7 +13,7 @@ const styles = {
         padding: '2%',
     },
     outerBox: {
-        backgroundColor: '#2653bb',
+        backgroundColor: 'rgba(35, 78,182, .7)',
         paddingLeft: '1%',
         paddingRight: '1%',
         paddingBottom: '5px',
