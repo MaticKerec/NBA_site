@@ -19,4 +19,5 @@ Here are screenshots of the currents site:
 ![Home](nba-site/src/assets/Img/Home_screenshot.png)
 ![Teams](nba-site/src/assets/Img/Teams_screenshot.png)
 ![Standings](nba-site/src/assets/Img/Standings_screenshot.png)
-![New Standings](nba-site/src/assets/Img/Standings_screenshot_1.png)
+![Eastern Standings](nba-site/src/assets/Img/EasternStandings.png)
+![Western Standings](nba-site/src/assets/Img/WesternStandings.png)
