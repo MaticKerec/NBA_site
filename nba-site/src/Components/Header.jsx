@@ -1,7 +1,5 @@
-import {Toolbar, IconButton, Button, Box, Typography, Link} from '@mui/material';
+import {Toolbar, Button, Box, Typography, Link} from '@mui/material';
 import Logo from '../assets/Img/nba-logo-transparent.png';
-import { createTheme, ThemeProvider } from '@mui/material';
-import React from "react";
 import styles from "../JS/styles.js";
 function LogoComponent({ sx }) {
     return (
@@ -18,17 +16,17 @@ export default function Header() {
                 NBA DATABASE
             </Link>
             <Box sx={styles.boxHeader}>
-                <Button sx={styles.eachButton}>
+                <Button sx={{...styles.eachButton, width: '80px'}}>
                     <Link href="/" underline="hover" style={styles.headerText}>
                         HOME
                     </Link>
                 </Button>
-                <Button sx={styles.eachButton}>
+                <Button sx={{...styles.eachButton, width: '100px'}}>
                     <Link href="/teams" underline="hover" style={styles.headerText}>
                         TEAMS
                     </Link>
                 </Button>
-                <Button sx={styles.eachButton}>
+                <Button sx={{...styles.eachButton, width: '160px'}}>
                     <Link href="/standings" underline="hover" style={styles.headerText}>
                         STANDINGS
                     </Link>

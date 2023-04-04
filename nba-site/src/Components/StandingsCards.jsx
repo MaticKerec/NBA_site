@@ -185,7 +185,7 @@ const EasternStandings = ({ standingsData }) => {
         },
     ];
     return (
-        <Box mt={3}>
+        <Box sx={styles.eastern}>
             <StandingsTable conferenceName="EASTERN" standingsData={easternStandingsData} />
         </Box>
     );
@@ -375,23 +375,21 @@ const WesternStandings = () => {
         },
     ];
     return (
-        <Box mt={3}>
+        <Box sx={styles.western}>
             <StandingsTable conferenceName="WESTERN" standingsData={westernStandingsData} />
         </Box>
     );
 };
 const StandingsTable = ({ conferenceName, standingsData }) => {
     return (
-        <Box mt={5}>
+        <Box mt={3} sx={styles.outerBox}>
             <Box sx={styles.conferenceBox}>
                 <Typography variant="h2" sx={styles.conferenceText}>
                     {conferenceName} CONFERENCE
                 </Typography>
             </Box>
-
-            <Grid container spacing={2} sx={styles.grid}>
                 {standingsData.map((team) => (
-                    <Grid key={team.teamId} item sx={{width: '100%',paddingBottom: '1%'}}>
+                    <Grid key={team.teamId} item sx={{paddingBottom: '1%'}}>
                         <Card sx={styles.card}>
                             <CardContent style={{padding: '0%'}}>
                                 <Box sx={{...styles.box, backgroundColor: team.primaryColor}}>
@@ -413,7 +411,6 @@ const StandingsTable = ({ conferenceName, standingsData }) => {
                         </Card>
                     </Grid>
                 ))}
-            </Grid>
         </Box>
     );
 };

@@ -7,7 +7,6 @@ import {BrowserRouter, Route, Routes} from "react-router-dom"
 import Home from "./Components/Home"
 import Layout from "./Components/Layout.jsx";
 import Teams from "./Components/Teams.jsx";
-import Players from "./Components/Players.jsx";
 import Standings from "./Components/Standings.jsx";
 function App() {
     return (

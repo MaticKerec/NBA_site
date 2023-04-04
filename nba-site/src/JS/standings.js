@@ -1,5 +1,5 @@
-import backgroundImage from "../assets/Img/2122-mobile-wallpaper-01.jpg";
-import standing from "../assets/Img/background.jpg";
+import backgroundImage from "../assets/Img/zachLavine_background.jpg";
+import lighttBackground from "../assets/Img/light_background.jpg";
 
 const styles = {
     overlay: {
@@ -10,14 +10,33 @@ const styles = {
         padding: '1%',
     },
     conferenceBox: {
-        backgroundColor: '#1c1c1c',
-        padding: '3%',
+        padding: '2%',
+    },
+    outerBox: {
+        backgroundColor: '#2653bb',
+        paddingLeft: '1%',
+        paddingRight: '1%',
+        paddingBottom: '5px',
         marginBottom: '2%',
     },
     conferenceText: {
         color: '#fff',
         fontWeight: 'bold',
         textAlign: 'center',
+    },
+    switchConference: {
+        color: '#fff',
+        backgroundColor: '#1c1c1c',
+        padding: '1%',
+        fontSize: '25px',
+        marginBottom: '15px',
+    },
+    western: {
+        backgroundColor: ''
+    },
+    eastern: {
+        backgroundColor: ''
+
     },
     box: {
         display: "flex",
@@ -69,6 +88,13 @@ const styles = {
         fontSize: "2.5rem",
         textShadow: '1px 1px #000',
         marginTop: 'auto',
+    },
+    eachButton: {
+        color: 'white',
+        fontSize: '35px',
+        fontWeight: '500',
+        fontFamily: 'Poppins',
+        textDecoration: 'none',
     },
 };
 

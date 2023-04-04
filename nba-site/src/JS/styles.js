@@ -1,5 +1,5 @@
 import backgroundCardImage from "../assets/Img/background.jpg";
-import backgroundImage from "../assets/Img/2122-mobile-wallpaper-01.jpg"
+import backgroundImage from "../assets/Img/zachLavine_background.jpg"
 
 const styles = {
     toolbar: {
@@ -137,9 +137,7 @@ const styles = {
         textDecoration: 'none',
     },
     eachButton: {
-        textTransform: "none",
         margin: 'auto',
-        width: '100%',
         color: 'white',
         fontSize: '25px',
         fontWeight: '500',
@@ -149,7 +147,7 @@ const styles = {
     footerText: {
         textTransform: "none",
         color: 'white',
-        fontSize: '18px',
+        fontSize: '22px',
         fontWeight: '500',
         fontFamily: 'Poppins',
         textDecoration: 'none',

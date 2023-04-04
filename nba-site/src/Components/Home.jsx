@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 import "../Styles/styles.css"
 import {Box, Button, Grid, Typography} from '@mui/material';
 import { Table, TableHead, TableRow, TableCell, TableBody } from "@mui/material";
-import videoBg from '../assets/Video/intro_Trim.mp4'
+import videoBg from '../assets/Video/intro_second_Trim.mp4'
 import styles from '../JS/styles.js'
 
 export default function Home() {
